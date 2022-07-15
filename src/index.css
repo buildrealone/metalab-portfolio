@@ -1,0 +1,65 @@
+* {
+  text-decoration: none;
+  color: #65748f;
+} 
+
+h2 {
+  margin-left: 25px;
+  color: #5b6982;
+}
+
+li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+#mainUI
+{
+  border: 0px solid pink; 
+  position: fixed; 
+  top: 0px;  
+  width:99%; 
+  height:99%; 
+  z-index: 1; 
+  pointer-events: none; /* allow click-through in transparent areas */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+
+}
+
+#regionUI
+{
+  border: 0px solid yellow;
+  position: absolute; 
+  display: flex;
+  flex-direction: row;
+  pointer-events: none;
+  bottom: 50px; 
+}
+
+#buttonUI
+{
+  border: 0px solid lime;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  pointer-events: auto;	
+  /* filter: drop-shadow(0px 0px 5px white); */
+  /* 128px */
+  width: 48px;
+  height: 48px;
+  opacity: 0.70;
+}
+
+#joystick
+{
+  /* position: absolute;
+  left: 32px;
+  top: 32px; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
